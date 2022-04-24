@@ -1,0 +1,30 @@
+.album--btn{
+    padding: 10px;
+}
+
+.album--btn button{
+    padding: 3px;
+}
+
+.album--title{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.album--container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.album--image{
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.album--image:hover{
+    transform: scale(1);
+}

@@ -1,0 +1,32 @@
+.photo--btn,
+.photo--title{
+    padding: 10px;
+}
+
+.photo--btn button{
+    padding: 3px;
+}
+
+.photo--title{
+    margin-bottom: 20px;
+}
+
+.photo--area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.photo--area img{
+    border-radius: 15px;
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo--area img:hover{
+    transform: scale(1);
+}
+
+
